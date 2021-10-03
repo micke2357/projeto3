@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="bootstrap-4.1.3/css/style.css" type="text/css">
+        
+        <!--Font importada-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+            </style>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="bootstrap-4.1.3/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap-4.1.3/css/bootstrap-reboot.min.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap-4.1.3/css/bootstrap-grid.min.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap-4.1.3/css/step.css">
+    </head>
+    <body style="background-color: #f3f3f3;">
+        <main class="main__Cadastro">
+            <nav>
+                <!--Logotipo-->
+                <img src="img/White.png" alt="Logotipo" class="imglogo">
+                <!--Logout-->
+                <a href="login.html" class="btn__Logout">
+                    <button href="login.html" style="background: white; color: #326F83; border: none;"><strong>Logout</strong></button>
+                    <img src="img/Logout.png" alt="Logout" title="Logout">
+                </a>
+                
+                </div>
+            </nav>
+            <!--Step-->
+            <header>
+                <div class="steps">
+                    <div class="steps-line" style="width: 76%; margin-left: 12%;">
+                        <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%;">
+                        </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="active" style="width:25%;">UNIDADE</li>
+                        <li class="active" style="width:25%;">HORÁRIO</li>
+                        <li class="active" style="width:25%;">CADASTRO</li>
+                        <li style="width:25%;">PERGUNTAS</li>
+                    </ul>
+                  </div>
+            </header>
+            <div class="container">
+                                
+                <form class="form__Cadastro">
+                    <h3><strong> Cadastro</strong></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet diam quis elementum placerat. Pellentesque</p>
+                    <br>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <h5><strong> Informações pessoais:</strong></h5>
+                        </div>
+                        <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                            <label for="inputName">Nome Completo</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <img src="img/nome.png" alt="Nome" class="border-top border-bottom border-left">
+                                </div>
+                                <input type="text" class="input-group-append border-top border-bottom border-right" style="border: inherit; width: auto;" id="inputname" placeholder="Maria Fernanda" name="Nome">
+                            </div>
+                            
+                        </div>
+                        <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                            <label for="inputCpf">CPF</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <img src="img/CPF.png" alt="Nome" class="border-top border-bottom border-left">
+                                </div>
+                                <input type="text" class="border-top border-bottom border-right" style="border: inherit;" id="inputCpf" placeholder="000.000.000-00">
+                            </div>
+                            
+                        </div>
+                        <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                            <label for="inputData">Data de Nascimento</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <img src="img/data.png" alt="Data" class="border-top border-bottom border-left">
+                                </div>
+                                <input type="text" class="border-top border-bottom border-right" placeholder="00/00/0000" style="border: inherit;" id="inputData">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <h5><strong> Informações pessoais:</strong></h5>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <label for="inputCEP">CEP</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="inputCep" placeholder="00 000-000">
+                            </div>
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="inputAddress">Endereço</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Rua, Al, etc.">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group col-md-1">
+                            <label for="inputNumber">Número</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="inputNumber" placeholder="00">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group col-md-3">
+                            <label for="inputBairro">Bairro</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="inputBairro" placeholder="Ex: Rio Vermelho">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputComplemento">Complemento</label>
+                            <input type="text" id="inputComplemento" class="form-control" placeholder="Escreva algo">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputMunicipio">Município</label>
+                            <input type="text" id="inputMunicipio" class="form-control" placeholder="Escreva algo">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputEstado">UF</label>
+                            <select id="inputEstado" class="form-control">
+                            <option selected disabled>Ex: BA</option>
+                                <option>AC</option>
+                                <option>AL</option>
+                                <option>AP</option>
+                                <option>AM</option>
+                                <option>BA</option>
+                                <option>CE</option>
+                                <option>DF</option>
+                                <option>ES</option>
+                                <option>GO</option>
+                                <option>MA</option>
+                                <option>MT</option>
+                                <option>MS</option>
+                                <option>MG</option>
+                                <option>PA</option>
+                                <option>PB</option>
+                                <option>PR</option>
+                                <option>PE</option>
+                                <option>PI</option>
+                                <option>RJ</option>
+                                <option>RN</option>
+                                <option>RS</option>
+                                <option>RO</option>
+                                <option>RR</option>
+                                <option>SC</option>
+                                <option>SP</option>
+                                <option>SE</option>
+                                <option>TO</option>
+                            </select>
+                        </div>
+                    <br>
+                    </div>
+                    <div class="form-row" style="margin-top: 123px;">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <button type="button" url="horario.html" class="btn rounded button_back border">Voltar</button>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <button type="button" class="btn rounded button_next border">Avançar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer style="margin-left: 160px; margin-top: 110px; background: #f3f3f3;">
+            <p><small>Todos os direitos reservados para Campeão Negócios</small></p>
+            <!--JS-->
+            <script src="bootstrap-4.1.3/js/bootstrap.min.js" type="text/javascript"></script>
+            <script src="bootstrap-4.1.3/js/bootstrap.bundle.js" type="text/javascript"></script>
+            <script src="bootstrap-4.1.3/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+            <script src="bootstrap-4.1.3/js/bootstrap.js" type="text/javascript"></script>
+            <script src="bootstrap-4.1.3/js/jquery-3.3.1.min.js"></script>
+            <script src="bootstrap-4.1.3/js/popper.min.js"></script>
+            <script src="bootstrap-4.1.3/js/bootstrap.min.js"></script>
+            <script src="/bootstrap-4.1.3/js/step.js"></script>
+        </footer>
+    </body>
+</html>

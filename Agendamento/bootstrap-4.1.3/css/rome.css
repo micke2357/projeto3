@@ -1,0 +1,125 @@
+.rd-container {
+  display: none;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  width: auto;
+  margin-left: -30px;
+}
+.rd-container-attachment {
+  position: absolute;
+}
+.rd-month {
+  display: inline-block;
+  margin-right: 25px;
+  
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: large;
+}
+.rd-month:last-child {
+  margin-right: 0;
+}
+.rd-back,
+.rd-next {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+.rd-back[disabled],
+.rd-next[disabled] {
+  cursor: default;
+}
+.rd-back {
+  float: left;
+  margin-left: 10px;
+}
+.rd-next {
+  float: right;
+  margin-right: 10px;
+}
+.rd-back:before {
+  display: block;
+  content: url("../../img/calendar-back.png");
+  color: #57C3E6;
+}
+.rd-next:before {
+  display: block;
+  content: url("../../img/calendar-next.png");
+}
+.rd-day-body {
+  cursor: pointer;
+  
+  
+  width: 50px!important;
+  height: 50px!important;
+}
+.rd-day-selected,
+.rd-time-selected,
+.rd-time-option:hover {
+  cursor: pointer;
+  background-color: #57C3E6;
+  color: #fff;
+  border-radius: 5px;
+}
+.rd-day-prev-month,
+.rd-day-next-month {
+  color: #ccc;
+}
+.rd-day-disabled {
+  cursor: default;
+  color: #fcc;
+}
+.rd-time {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+  min-width: 80px;
+}
+.rd-time-list {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  max-height: 160px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #333;
+}
+.rd-time-selected {
+  padding: 5px;
+}
+.rd-time-option {
+  padding: 5px;
+}
+.rd-day-concealed {
+  visibility: hidden;
+}
+
+.rd-days {
+  margin-top: 20px;
+  width: 466px;
+}
+.rd-month-label {
+  color: #4499B5;
+}
+.rd-day-head {
+  color: #57C3E6;
+}
+.rd-day-body {
+  color: #AAAAAA;
+}
+.rd-day-body:hover {
+  color: white;
+  background: #57C3E6;
+  border-radius: 5px;
+}
+.rd-day-selected {
+  color: white;
+}
+.rd-day-prev-month, .rd-day-next-month {
+  color: #d8d6d6;
+}

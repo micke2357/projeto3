@@ -1,0 +1,47 @@
+
+.steps {
+    position: relative;
+    width: 50%;
+    margin: 10px auto;
+    padding: 0;
+}
+.steps > .steps-line {
+    position: absolute;
+    top: 15px;
+}
+.steps > ul {
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    color: #ccc;
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    list-style: none;
+}
+.steps > ul > li {
+    text-align: center;
+    padding-top: 34px;
+    background-image: url("../../img/circle-2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: inline-block;
+    *display: inline;
+    
+}
+.steps > ul > li.active {
+    background-image: url("../../img/ball.png");
+    color: #57C3E6;
+}
+.progress {
+    height: 10px;
+    margin-bottom: 0;
+    background-color: #ebebeb;
+    height: 3px;
+}
+.progress-bar {
+    background: #57C3E6;
+    border: 0.5px solid #ccc;
+    
+}
